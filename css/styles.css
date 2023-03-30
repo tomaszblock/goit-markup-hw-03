@@ -15,6 +15,27 @@ body a {
   font-family: "roboto", sans-serif;
   color: var(--color-font-primary);
 }
+ul {
+  list-style-type: none;
+}
+/* .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.flex {
+  display: flex;
+}
+.test {
+  justify-content: space-around;
+  align-items: center;
+}
+.test2 {
+  jus
+}
+.margin-a {
+  margin: 23px;
+} */
 .logo {
   font-family: "raleway", sans-serif;
   font-weight: 700;
