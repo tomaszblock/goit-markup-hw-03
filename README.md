@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-https://tomaszblock.github.io/goit-markup-hw-02/
+https://tomaszblock.github.io/goit-markup-hw-03/
