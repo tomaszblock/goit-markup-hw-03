@@ -9,13 +9,20 @@
   --color-buttons: rgb(245, 244, 250);
   --color-black: rgb(0, 0, 0);
   --text-shadow-primary: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  --color-border-primary: rgb(236, 236, 236);
+  --color-header-border: rgb(236, 236, 236);
+  --color-image-border: rgb(238, 238, 238);
 }
 body,
 body a {
   font-family: "roboto", sans-serif;
   color: var(--color-font-primary);
 }
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style-type: none;
 }
@@ -130,6 +137,7 @@ ul {
   letter-spacing: 0.03em;
   background-color: var(--color-buttons);
   padding: 6px 22px;
+  margin-right: 8px;
 }
 .button-filters-active {
   color: var(--color-white);
@@ -142,12 +150,14 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--color-font-secondary);
+  margin: 0 24px 20px;
 }
 .portfolio-image-text-bold {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 20px 24px 4px;
 }
 .button-standard {
   border-radius: 4px;
@@ -165,7 +175,7 @@ ul {
   height: 80px;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--color-border-primary);
+  border-bottom: 1px solid var(--color-header-border);
 }
 .grow-medium {
   flex-grow: 3;
@@ -180,4 +190,27 @@ ul {
 .filter-box {
   display: flex;
   gap: 46px;
+}
+.flex {
+  display: flex;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.test {
+  flex-direction: column;
+}
+.button-filters-box {
+  margin-bottom: 16px;
+  display: flex;
+}
+.portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 34px;
+}
+.portfolio-image-border {
+  border: 1px solid var(--color-image-border);
 }
