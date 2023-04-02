@@ -31,9 +31,12 @@ ul {
   align-items: center;
 }
 .test2 {
-  /* align-self: flex-end; */
-  justify-self: flex-end;
+  flex-grow: 3;
 }
+.test3 {
+  flex-grow: 1;
+}
+
 .margin-a {
   margin: 23px;
 }
